@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylesheet.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../react.js"></script>
+</head>
+<body>
+    <div class="dsa"> 
+        <h1>DATA STRUCTURES</h1>
+        <h2>AND ALGORITHMS</h2>
+        <h3>What are Data Structures?</h3>
+        <p>A data structure is a way to store data.We structure data in different ways depending on what data we have, and what we want to do with it.Family TreeFirst, let's consider an example without computers in mind, just to get the idea.If we want to store data about people we are related to, we use a family tree as the data structure.
+            We choose a family tree as the data structure because we have information about people we are related to and how they are related, and we want an overview so that we can easily find a specific family member, several generations back.With such a family tree data structure visually in front of you, it is easy to see, for example, 
+            who my mother's mother is—it is 'Emma,' right? But without the links from child to parents that this data structure provides, it would be difficult to determine how the individuals are related.Data structures give us the possibility to manage large amounts of data efficiently for uses such as large databases and internet indexing services.
+            Data structures are essential ingredients in creating fast and powerful algorithms. They help in managing and organizing data, reduce complexity, and increase efficiency. </p>
+        <img id="tree" src="../Images/family tree.png" alt="family tree">
+        <h3>What are Algorithms?</h3>
+        <p>An algorithm is a set of step-by-step instructions to solve a given problem or achieve a specific goal.A cooking recipe written on a piece of paper is an example of an algorithm, where the goal is to make a certain dinner. The steps needed to make a specific dinner are described exactly.When we talk about algorithms in Computer Science, 
+         the step-by-step instructions are written in a programming language, and instead of food ingredients, an algorithm uses data structures.Algorithms are fundamental to computer programming as they provide step-by-step instructions for executing tasks. An efficient algorithm can help us to find the solution we are looking for, and to transform 
+         a slow program into a faster one.By studying algorithms, developers can write better programs.</p>
+        <h3>Data Structures together with Algorithms</h3>
+        <p>Data structures and algorithms (DSA) go hand in hand. A data structure is not worth much if you cannot search through it or manipulate it efficiently using algorithms, and the algorithms in this tutorial are not worth much without a data structure to work on.DSA is about finding efficient ways to store and retrieve data, to perform operations 
+        on data, and to solve specific problems. </p>
+        <h3>Terminology</h3>
+        <p>1)  Algorithm:-  A set of step-by-step instructions to solve a specific problem.</p>
+        <p>2)  Data Structure:- A way of organizing data so it can be used efficiently. Common data structures include arrays, linked lists, and binary trees.</p>
+        <p>3)  Time Complexity:- A measure of the amount of time an algorithm takes to run, depending on the amount of data the algorithm is working on.</p>
+        <p>4)  Space Complexity:- A measure of the amount of memory an algorithm uses, depending on the amount of data the algorithm is working on.</p>
+        <p>5)  Big O Notation:- A mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity. Used in this tutorial to describe the time complexity of an algorithm.</p>
+        <p>6)  Recursion:- A programming technique where a function calls itself.</p>
+        <p>7)  Divide and Conquer:- A method of solving complex problems by breaking them into smaller, more manageable sub-problems, solving the sub-problems, and combining the solutions. Recursion is often used when using this method in an algorithm.</p>
+        <p>8)  Brute Force:- A simple and straight forward way an algorithm can work by simply trying all possible solutions and then choosing the best one.</p>
+        <h3>Classification of Data Structure</h3>
+        <p>Data structure has many different uses in our daily life. There are many different data structures that are used to solve different mathematical and logical problems. By using data structure, one can organize and process a very large amount of data in a relatively short period. Let’s look at different data structures that are used in different situations. </p>
+        <img id="tree" src="../Images/dsa type.jpg" alt="data type">
+        <h3>Linear data structure:</h3>
+        <p>Data structure in which data elements are arranged sequentially or linearly, where each element is attached to its previous and next adjacent elements, is called a linear data structure. </p>
+        <p>Examples of linear data structures are array, stack, queue, linked list, etc.</p>
+        <h3>Non-linear data structure:</h3>
+        <p>Data structures where data elements are not placed sequentially or linearly are called non-linear data structures. In a non-linear data structure, we can’t traverse all the elements in a single run only. Examples of non-linear data structures are trees and graphs.</p>
+
+        <h1 style="padding-top: 80px; font-size: 50px;">Linear Data Structure VS Non Linear Data Structure</h1>
+        <table align="center" border="4px" width="70%" cellpadding="20" cellspacing="7" bordercolor="black" >
+            <tr align="center">
+            </tr>
+            <tr>
+                <th>Sr.no</th>
+                <th>Linear Data Structure</th>
+                <th>Non-linear Data Structure</th>
+            </tr>
+            <tr align="center">
+                <td>1</td>
+                <td> data elements are arranged in a linear order where each and every element is attached to its previous and next adjacent.</td>
+                <td>In a non-linear data structure, data elements are attached in hierarchically manner.</td>
+            </tr>
+            <tr align="center">
+                <td>2</td>
+                <td>In linear data structure, single level is involved.</td>
+                <td>Whereas in non-linear data structure, multiple levels are involved.</td>
+            </tr>
+            <tr align="center">
+                <td>3</td>
+                <td>Its implementation is easy in comparison to non-linear data structure.</td>
+                <td>While its implementation is complex in comparison to linear data structure.</td>
+            </tr>
+            <tr align="center">
+                <td>4</td>
+                <td>In linear data structure, data elements can be traversed in a single run only.</td>
+                <td>While in non-linear data structure, data elements can’t be traversed in a single run only.</td>
+            </tr>
+            <tr align="center">
+                <td>5</td>
+                <td>In a linear data structure, memory is not utilized in an efficient way.</td>
+                <td>While in a non-linear data structure, memory is utilized in an efficient way. </td>
+            </tr>
+            <tr align="center">
+                <td>6</td>
+                <td>Its examples are: array, stack, queue, linked list, etc.</td>
+                <td>While its examples are: trees and graphs.</td>
+            </tr>
+            <tr align="center">
+                <td>7</td>
+                <td>Applications of linear data structures are mainly in application software development.</td>
+                <td>Applications of non-linear data structures are in Artificial Intelligence and image processing.</td>
+            </tr>
+            <tr align="center">
+                <td>8</td>
+                <td>Linear data structures are useful for simple data storage and manipulation.</td>
+                <td>Non-linear data structures are useful for representing complex relationships and data hierarchies, such as in social networks, file systems, or computer networks.</td>
+            </tr>
+            <tr align="center">
+                <td>9</td>
+                <td>Performance is usually good for simple operations like adding or removing at the ends, but slower for operations like searching or removing elements in the middle.</td>
+                <td>Performance can vary depending on the structure and the operation, but can be optimized for specific operations.</td>
+            </tr>
+        </table>
+        <h3>5 Steps to learn DSA from scratch</h3>
+        <p>The complete process to learn DSA from scratch can be broken into 5 parts:</p>
+        <p>1) Learn a programming language of your choice</p>
+        <p>2) Learn about Time and Space complexities</p>
+        <p>3) Learn the basics of individual Data Structures and Algorithms</p>
+        <p>4) Practice, Practice, and Practice more</p>
+        <p>5) Compete and Become a Pro</p>
+        <p>Before starting any data structure or algorithm you need to know the means to express it or implement it. So, the first task is to learn any programming language. Then you should learn about one of the most important and most used concepts about DSA, the complexity of a program. Now equipped with the prerequisites, you can start learning DSA and at the same time practice it regularly and compete in challenges to gauge and sharpen your ability.</p>
+        <h3>1. Learn at least one Programming language</h3>
+        <p>This should be your first step while starting to learn data structure and algorithms. We as human beings, before learning to write a sentence or an essay on a topic, first try to learn that language: the alphabet, letters, and punctuations in it, how and when to use them. The same goes for programming also. Firstly, select a language of your choice, be it Java, C, C++, Python, or any other language of your choice. 
+        Before learning how to code in that language you should learn about the building pieces of the language: the basic syntax, the data types, variables, operators, conditional statements, loops, functions, etc. You may also learn the concept of OOP (Object Oriented Programming). </p>
+        <h3>2. Learn about Complexities</h3>
+        <p>Here comes one of the interesting and important topics. The primary motive to use DSA is to solve a problem effectively and efficiently. How can you decide if a program written by you is efficient or not? This is measured by complexities. Complexity is of two types:</p>
+        <h3>1) Time Complexity:</h3>
+        <p>Time complexity is used to measure the amount of time required to execute the code.</p>
+        <h3>2) Space Complexity:</h3>
+        <p>Space complexity means the amount of space required to execute successfully the functionalities of the code. You will also come across the term Auxiliary Space very commonly in DSA, which refers to the extra space used in the program other than the input data structure.</p>
+        <p>Both of the above complexities are measured with respect to the input parameters. But here arises a problem. The time required for executing a code depends on several factors, such as: </p>
+        <p>- The number of operations performed in the program, </p>
+        <p>- The speed of the device, and also</p>
+        <p>- The speed of data transfer if being executed on an online platform.</p>
+        <p>So how can we determine which one is efficient? The answer is the use of asymptotic notation.</p>
+        <h3>Asymptotic notation:-</h3>
+        <p>is a mathematical tool that calculates the required time in terms of input size and does not require the execution of the code.</p>
+        <p>It neglects the system-dependent constants and is related to only the number of modular operations being performed in the whole program. The following 3 asymptotic notations are mostly used to represent the time complexity of algorithms:</p>
+        <h3>1. Big-O Notation (Ο) :-</h3>
+        <p>Big-O notation specifically describes the worst-case scenario.</p>
+        <h3>2. Omega Notation (Ω) :-</h3>
+        <p> Omega(Ω) notation specifically describes the best-case scenario.</p>
+        <h3>3. Theta Notation (θ) :-</h3>
+        <p>This notation represents the average complexity of an algorithm.</p>
+        <img id="tree" src="../Images/asymptotic  otation.png" alt="asymptotic notation">
+        <p>The most used notation in the analysis of a code is the Big O Notation which gives an upper bound of the running time of the code (or the amount of memory used in terms of input size).To learn about complexity analysis in detail, you can refer to our complete set of articles on the Analysis of Algorithms.</p>
+        <h3>3. Learn Data Structures and Algorithms</h3>
+        <p>Here comes the most crucial and the most awaited stage of the roadmap for learning data structure and algorithm – the stage where you start learning about DSA. The topic of DSA consists of two parts: </p>
+        <p>- Data Structures</p>
+        <p>- Algorithms </p>
+        <p>Here we have followed the flow of learning a data structure and then the most related and important algorithms used by that data structure.</p>
+         <p style="padding-top: 20px; font-family: cursive; font-weight: 900; font-display:inherit; font-size: 32px;"><br>
+        <a href="https://roadmap.sh/datastructures-and-algorithms" style="border: 2px;">Step by step guide to learn Data Structures and Algorithms</a>
+        </br></p>
+        <h3>4. Practice, Practice and Practice more</h3>
+        <p>With this, we have completed the basics of major Data structure and Algorithms, and now it’s time to try our hands on each of them.</p>
+        <h3>5. Compete and Become A Pro</h3>
+        <p>Now it is time to test out your skills and efficiency. The best possible way is to compete with others. This will help you find out your position among others and also give you a hint on the areas you are lacking. There are several online competitive platforms available where you can participate regularly.
+        Also, some online challenges are held from time to time in a year which also provides lots of prizes and opportunities, such as:</p>
+        <h3>Tips to boost your learning</h3>
+        <p>By far we have discussed in-depth the 5 crucial steps to learning DSA from scratch. During the complete journey on the roadmap to learn DSA, here are some tips which will surely help you:Learn the Fundamentals of chosen Programming Language thoroughly Implement each small concept that you are learning. Make sure to learn the following concepts:Basic Syntax Data Types Operators, Variables, functions Conditional Statement, loops
+            OOP(Object-Oriented Programming) Get a good grasp of the Complexity Analysis Understand how the complexity is calculated, and try to solve multiple questions to find the complexities of programs. You can also try out our quiz on Analysis of Algorithms for better practice. Focus on Logic Building The best way to do this is to solve as many problems as you can from scratch, without looking into solutions or editorials. The more 
+            you solve, the more strong your logic building will be. Stuck on a problem/topic? Don’t worry, you are not alone It is a brainer that you can solve all the problems all by yourself. There will be problems, hours, and even days when you will be stuck and won’t be able to find any solution. Don’t worry, it happens with everyone. If stuck on any problem try to read hints and approaches for solutions. If still unable then see the 
+            logic only and code it on your own. If getting stuck on similar types of problems you should probably revise the concept before trying to solve similar types of problems again. You can also try out our 24×7 Doubt Assistance program to let us help you tackle such situations without breaking a sweat. </p>
+
+
+    </div>
+    
+</body>
+</html>
